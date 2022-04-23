@@ -1,12 +1,13 @@
-import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import React from "react";
+import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import Menubar from "../Menubar/Menubar";
 
 const Header = () => {
-    return (
-        <div>
-            <Navbar></Navbar>
-        </div>
-    );
+  return (
+    <div>
+      <Menubar></Menubar>
+    </div>
+  );
 };
 
 export default Header;
